@@ -1,0 +1,37 @@
+body{
+    height: 100%;
+    font-family: 'Caveat', cursive;
+}
+
+video{
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    margin-top: -50%;
+    margin-left: -50%;
+    z-index: 1;
+}
+a{
+  display: inline-block;
+    padding: 12px 48px;
+    border: solid 4px rgb(255,60,100);
+    text-decoration: none;
+    font-size: 24px;
+    color: rgb(255,60,100);
+}
+
+div{
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+    max-width: 720px;
+    margin-top: 100px;
+    text-align: center;
+}
+h1{
+    margin-bottom: 25px;
+    color: rgb(40,40,40);
+    font-size: 44px;
+    background-color: rgb(246,245,120);
+    opacity: 0.7;
+}

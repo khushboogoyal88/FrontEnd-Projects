@@ -1,0 +1,57 @@
+html{
+   height: 100%; 
+}
+
+body{
+    background: url("https://images.unsplash.com/photo-1525722752835-fdf3d77e9d03?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1171&q=80");
+    background-size: cover;
+   background position: center;
+    
+}
+
+.navbar-light .navbar-brand{
+    color: black;
+}
+
+.center{
+    text-align: center;
+    padding-top: 8%;
+}
+
+#login{
+    min-width: 200px;
+    background-color: rgba(255,255,255,0.7);
+    padding: 14px 14px 0;
+    overflow: hidden;
+}
+
+.btn-fb,.btn-fb:hover{
+    color:#fff;
+    background-color: #3b5998;
+}
+
+.btn-g,.btn-g:hover{
+    color:#fff;
+    background-color: #55acee;
+    margin: 5px 0px 10px 0px;
+}
+
+h1{
+    font-size: 30px;
+    font-family: 'Noto Serif', serif;
+}
+h1>span{
+    font-family: 'Allura', cursive;
+    font-size: 60px;
+}
+
+@media (max-width: 768px){
+    h1, h2, button {
+        background-color: skyblue;
+    }
+}
+
+.btn-success {
+    background-color: skyblue;
+    border-color: skyblue;
+}

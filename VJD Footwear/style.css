@@ -1,0 +1,44 @@
+body{
+    padding bottom: 20px;
+    color: 5a5a5a;
+    
+}
+
+.navbar-wrapper{
+    position:absolute;
+    top:0;
+    right:0;
+    left:0;
+    z-index: 20;
+}
+
+.carousel {
+  height: 300;
+  margin-bottom: 60px;
+}
+.carousel-inner > .carousel-item > img{
+    min-width: 100%;
+    height: 500px;
+}
+.team .col-sm{
+    text-align: center;
+}
+.team p{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.divider{
+    margin: 40px 0;
+}
+
+.contents{
+    padding-top: 60px;
+    text-align: center;
+}
+.top-buffer{
+    margin-top: 30px;
+}
+.col-sm-7 > h2{
+    color: rgb(183,90,96)
+}
