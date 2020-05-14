@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Shopping List</title>
+</head>
+<body>
+    <div id ="container">
+        <div class="controls">
+            <h1>My Shopping List</h1>
+            <input type="text" id = "input"><br>
+            <button type = "button" id = "add">Add</button>
+            <button type = "button" id = "remove">Remove</button>
+            <button type = "button" id = "removeEverything">Remove Everything</button>
+        </div>
+        <div>
+            <ul id="list">
+                <li class="mycheck"><input type = "checkbox" id ="check"><label >Banana</label></li> 
+                <li class="mycheck"><input type = "checkbox" id ="check" checked><label >Apple</label></li>    
+                <li class="mycheck"><input type = "checkbox" id ="check" checked><label >Milk</label></li>  
+                <li class="mycheck"><input type = "checkbox" id ="check" checked><label >Bread</label></li>           
+            </ul>
+        </div>
+    </div>
+    <script src = "todo.js"></script>
+</body>
+</html>
